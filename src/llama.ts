@@ -19,7 +19,7 @@ const config: LoadConfig = {
   nGpuLayers: 0
 };
 
-const template = 'What is the highest mountain in Japan?';
+const template = process.argv[2];
 
 const prompt = `
 USER: ${template}
