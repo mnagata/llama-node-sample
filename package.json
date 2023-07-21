@@ -1,0 +1,19 @@
+{
+    "name": "llama-node-sample",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "ts": "npx ts-node"
+    },
+    "devDependencies": {
+        "@types/node": "18.15.12",
+        "@types/ramda": "0.29.0",
+        "ts-node": "10.9.1",
+        "typescript": "5.0.4"
+    },
+    "dependencies": {
+        "llama-node": "0.1.6",
+        "@llama-node/llama-cpp": "0.1.6",
+        "ramda": "0.29"
+    }
+}
